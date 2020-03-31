@@ -18,9 +18,6 @@ class NewVisitorTest(unittest.TestCase): #(1)
         self.assertIn('To-Do',self.browser.title) #(4)
         self.fial('Finish the test!') #(5)
 
-        #She is invited to enter a to-do item straight away
-        [...rest of comments as before]
-        
 if __name__=='__main__': #(6)
     unittest.main(warnings='ignore') #(7)
 
